@@ -5,6 +5,11 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-  </PropertyGroup>
 
+    <AssemblyName>InvetarioApp</AssemblyName>
+    <RootNamespace>InvetarioApp</RootNamespace>
+    <Version>1.0.0</Version>
+    <Description>InvetarioApp</Description>
+
+  </PropertyGroup>
 </Project>

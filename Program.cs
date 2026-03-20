@@ -3,6 +3,10 @@
 // ====================== INVENTARIO APP ========================
 // ================================================================
 
+using System.Reflection;
+var assembly = Assembly.GetExecutingAssembly();
+var version = assembly.GetName().Version;
+
 Console.WriteLine("================================================================");
 Console.WriteLine("====================== INVENTARIO APP ========================");
 Console.WriteLine("================================================================");
@@ -14,3 +18,5 @@ Console.WriteLine("Ingrese el precio del producto:");
 // float precio = float.Parse(Console.ReadLine());
 
 Console.WriteLine("Ingrese la cantidad del producto:");
+
+Console.WriteLine($"Version: {version}");
